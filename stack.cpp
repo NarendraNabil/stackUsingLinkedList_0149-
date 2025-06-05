@@ -38,3 +38,7 @@ public:
         return value;
 
     }
+
+    // isEmpty operation : Check if the stack is empty
+    bool isEmpty()
+    {
