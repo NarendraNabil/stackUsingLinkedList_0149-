@@ -48,3 +48,8 @@ public:
     // pop operationremove the topmost elemt from the stack
     void pop()
     {
+        if (isEmpty())
+        {
+            cout << "Stack is empty." << endl;
+            return; // if the stack is empty, print a message and return
+        }
