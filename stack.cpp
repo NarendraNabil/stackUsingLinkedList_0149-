@@ -44,3 +44,7 @@ public:
     {
         return top == NULL; // Return true if the top pointer is NULL
     }
+
+    // pop operationremove the topmost elemt from the stack
+    void pop()
+    {
