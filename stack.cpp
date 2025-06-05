@@ -53,3 +53,6 @@ public:
             cout << "Stack is empty." << endl;
             return; // if the stack is empty, print a message and return
         }
+        cout << "Popped value: " << top->data << endl;
+        top = top->next; // ipdate the top pointer to the next node
+    }
