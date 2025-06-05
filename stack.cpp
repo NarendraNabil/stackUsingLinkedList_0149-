@@ -56,3 +56,7 @@ public:
         cout << "Popped value: " << top->data << endl;
         top = top->next; // ipdate the top pointer to the next node
     }
+
+    // peek/Top operation retrieve the value of the topmost element without removing it
+    void peek()
+    {
